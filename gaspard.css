@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 10vh;
+    width: 100%;
+    background-color:#051F62 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+}
+a{
+    padding: 15px 30px; 
+    color: white;
+    text-decoration: none; 
+}
+.logo{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    z-index: 2;
+}
+.jaune{
+    height: 65vh;
+    width: 100%;
+    background-color: #FFB802;
+}
+.black{
+    height:35vh;
+    width: 100%;
+    background-color: #0F100F;
+}
+
+h1{
+    color: #274301;
+    font-style: italic;
+    font-size: 70px;
+    margin-left: 40px;
+}
+p{
+    color: #274301;
+    font-style: italic;
+    font-size: 35px;
+    margin-left: 40px;
+   
+}
+.white{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    margin-left: 50px;
+}
+.img1{
+    position: absolute;
+    left: 70%;
+    bottom: 1%;
+}
+
+/* la page de la description */
+
+.corps{
+    background-color: #FFB802;
+    height: 95vh;
+    width: 100%;
+}
+.mom{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+.text{
+    transform: translate(550px);
+    color: #274301;
+    font-size: 70px;
+    font-style: italic;
+    width: 40%;
+    padding-top: 60px;
+
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+/*la page des travaux*/
+
+.pere{
+    background-color: #FFB802;
+    height: 95vh;
+    width: 100%;
+}
+.mom2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+.text2{
+    transform: translate(550px);
+    color: #274301;
+    font-size: 70px;
+    font-style: italic;
+    width: 40%;
+    padding-top: 60px;
+
+}
+.carre{
+    height: 337px;
+    width: 460px;
+    background-color: #E9BD4C;
+}
+.carre2{
+    height: 337px;
+    width: 460px;
+    background-color: #E9BD4C;
+}
+.gauche{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+/*la page de mon equipe*/
+
+
+.patron{
+    background-color: #FFB802;
+    height: 95vh;
+    width: 100%;
+}
+.seul2{
+    height: 295px;
+    width: 336px;
+    background-color: #0F4F0A;
+}
+.seul3{
+    height: 295px;
+    width: 336px;
+    background-color: #0F4F0A;
+}
+.gauche2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/* la page de mes loisirs*/
+
+
+.boss{
+    background-color: #FFB802;
+    height: 95vh;
+    width: 100%;
+}
+.centre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+
+
+
+
+/*la page contact moi*/
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: #FFB802;
+    display: flex;
+}
+.page{
+    width: 50%;
+    height: 70vh;
+}
+.page1{
+    width: 50%;
+    height: 60vh;
+    margin-top: 220px;
+}
+.page .mom2{
+    margin-left: 340px;
+}
+.deux{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+.deux1 input{
+    height: 50px;
+    width: 200px;
+    background-color: #E9BD4C;
+    border: none;
+    
+}
+.input input{
+    height: 50px;
+    width: 538px;
+    margin-left: 66px; 
+    margin-top: 50px;
+    background-color: #E9BD4C;
+    border: none;
+}
+.inputbig input{
+    height: 100px;
+    width: 538px;
+    margin-left: 66px;
+    margin-top: 50px;
+    background-color: #E9BD4C;
+    border: none;
+}
+.write1{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.write{
+    padding: 30px;
+}
+span{
+    color: gray;
+}
+
+
+
+
+
+
